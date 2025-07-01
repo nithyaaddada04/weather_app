@@ -1,4 +1,3 @@
 Flask==2.3.3
 requests==2.31.0
 
-get ur api key with (https://openweathermap.org/api) signin and get ur own api key 
