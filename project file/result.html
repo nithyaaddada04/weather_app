@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Weather in {{ weather.city }}</h2>
+        <img src="http://openweathermap.org/img/wn/{{ weather.icon }}@2x.png" alt="Weather icon">
+        <p><strong>Description:</strong> {{ weather.description }}</p>
+        <p><strong>Temperature:</strong> {{ weather.temperature }}°C</p>
+        <p><strong>Humidity:</strong> {{ weather.humidity }}%</p>
+        <p><strong>Wind Speed:</strong> {{ weather.wind }} m/s</p>
+        <a href="/">Search again</a>
+    </div>
+</body>
+</html>
